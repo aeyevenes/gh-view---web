@@ -1,0 +1,119 @@
+                    @import url('https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap');
+                    body {
+                        font-family: 'Raleway', sans-serif;
+                        font-weight: 300;
+                        /* if you want the light version */
+                    }
+                    
+                    body {
+                        background-color: rgb(99, 213, 248);
+                    }
+                    
+                    h1 {
+                        color: rgba(58, 12, 163, 1);
+                        font-size: 32 px;
+                    }
+                    
+                    h2 {
+                        font-size: 20;
+                        color: darkblue
+                    }
+                    
+                    p {
+                        font-size: 20px;
+                        color: hsla(276, 91%, 38%, 1);
+                        text-align: justify;
+                    }
+                    
+                    a {
+                        font-size: 40px;
+                        color: rgb(3, 3, 192);
+                        background-color: rgb(236, 243, 245);
+                    }
+                    
+                    div {
+                        background-color: white;
+                        padding: 40px;
+                        borde-radius: 10px;
+                        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+                        text-align: center;
+                        margin: 20px 10px;
+                    }
+                    
+                    #lewagon {
+                        padding: 15px 20px;
+                        dorder_radius: 4px;
+                    }
+                    
+                    .box {
+                        background-color: white;
+                        padding: 40px;
+                        borde-radius: 20px;
+                        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+                        text-align: center;
+                        margin: 20px 10px;
+                    }
+                    
+                    .white #rrss a {
+                        font-size: 50px;
+                        background-color: rgba(0, 0, 0, 0.1);
+                        padding: 8px;
+                    }
+                    
+                    .inline-list {
+                        display: inline;
+                        list-style: none;
+                        padding-left: 0;
+                    }
+                    
+                    .inline-list li {
+                        display: inline;
+                        padding: 0 10px
+                    }
+                    
+                    a {
+                        text-decoration: none;
+                        color: blue;
+                    }
+                    
+                    a:hover {
+                        color: red;
+                    }
+                    
+                    a {
+                        transition: color 0.8s linear 0.2s;
+                    }
+                    
+                    .white_box {
+                        background-color: white;
+                        padding: 40px;
+                        borde-radius: 20px;
+                        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+                        text-align: center;
+                        margin: 20px 10px;
+                    }
+                    
+                    img {
+                        border-radius: 50%;
+                    }
+                    
+                    @media (max-width: 960px) {
+                        /* For a screen < 960px, this CSS will be read */
+                        .white_box {
+                            width: 700px;
+                        }
+                    }
+                    
+                    @media (max-width: 720px) {
+                        /* For a screen < 720px, this CSS will be read */
+                        .white_box {
+                            width: 500px;
+                        }
+                    }
+                    
+                    @media (max-width: 540px) {
+                        /* For a screen < 540px, this CSS will be read */
+                        .white_box {
+                            width: 300px;
+                        }
+                    }
